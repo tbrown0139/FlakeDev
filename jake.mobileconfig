@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>This will sign you into your comapny email and accounts</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EmailAccountDescription</key>
+			<string>Company Mail</string>
+			<key>EmailAccountName</key>
+			<string>Jake MacDonald</string>
+			<key>EmailAccountType</key>
+			<string>EmailTypeIMAP</string>
+			<key>EmailAddress</key>
+			<string>jake@flakedevelop.me</string>
+			<key>IncomingMailServerAuthentication</key>
+			<string>EmailAuthPassword</string>
+			<key>IncomingMailServerHostName</key>
+			<string>imappro.zoho.com</string>
+			<key>IncomingMailServerPortNumber</key>
+			<integer>993</integer>
+			<key>IncomingMailServerUseSSL</key>
+			<true/>
+			<key>IncomingMailServerUsername</key>
+			<string>jake@flakedevelop.me</string>
+			<key>IncomingPassword</key>
+			<string>kilauea123</string>
+			<key>OutgoingMailServerAuthentication</key>
+			<string>EmailAuthPassword</string>
+			<key>OutgoingMailServerHostName</key>
+			<string>stmp.zoho.com</string>
+			<key>OutgoingMailServerPortNumber</key>
+			<integer>465</integer>
+			<key>OutgoingMailServerUseSSL</key>
+			<true/>
+			<key>OutgoingMailServerUsername</key>
+			<string>jake@flakedevelop.me</string>
+			<key>OutgoingPasswordSameAsIncomingPassword</key>
+			<true/>
+			<key>PayloadDescription</key>
+			<string>Configures Email settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Company Mail</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mail.managed.F24678E2-130E-49CB-9EDE-5F988688A592</string>
+			<key>PayloadType</key>
+			<string>com.apple.mail.managed</string>
+			<key>PayloadUUID</key>
+			<string>F24678E2-130E-49CB-9EDE-5F988688A592</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PreventAppSheet</key>
+			<true/>
+			<key>SMIMEEnablePerMessageSwitch</key>
+			<false/>
+			<key>SMIMEEnabled</key>
+			<true/>
+			<key>SMIMEEncryptionEnabled</key>
+			<false/>
+			<key>SMIMESigningEnabled</key>
+			<true/>
+			<key>allowMailDrop</key>
+			<true/>
+			<key>disableMailRecentsSyncing</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>jake@flakedevelop.me.cer</string>
+			<key>PayloadContent</key>
+			<data>
+			MIIFMzCCBBugAwIBAgIQB6q8bgv1CiIrotqABSHXdjANBgkqhkiG
+			9w0BAQsFADCBlzELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0
+			ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEaMBgGA1UE
+			ChMRQ09NT0RPIENBIExpbWl0ZWQxPTA7BgNVBAMTNENPTU9ETyBS
+			U0EgQ2xpZW50IEF1dGhlbnRpY2F0aW9uIGFuZCBTZWN1cmUgRW1h
+			aWwgQ0EwHhcNMTgwMzExMDAwMDAwWhcNMTkwMzExMjM1OTU5WjAl
+			MSMwIQYJKoZIhvcNAQkBFhRqYWtlQGZsYWtlZGV2ZWxvcC5tZTCC
+			ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM9O8M/xbWi2
+			vAcsKwLxGDN2z5RJcB/uVGg3jSyvsvLzG79dKs+Gr/uG4d1SAQHt
+			CjFDVnD7GDl00JMx0J8Ur9qFEs95MvzuVkE2aRnG+5yLHNqsJn8j
+			Q9++EcqjWjPVwOCeprrCQYpGzpe+ou2gjfjuraHPqSvy9pVPouM2
+			2L6JlepV4NUKKQJDhkIeRRv5WjMFiNQyyLiIpySsbAFlLiCheEbJ
+			Zzc0e/vlxZI/8EE1rsHwms9l8QHF7VJ30mWa+/qCR+fnGHPHy4fS
+			ztuZpUPNJwDn0MgTxoLlKHqWiJVQVWDX/SjQevmSEmddCyrXJ8h4
+			qgMfpl6r6c5HY7sR9ukCAwEAAaOCAeowggHmMB8GA1UdIwQYMBaA
+			FIKvbIz4xf6WYXzoHz0rcUhexIvAMB0GA1UdDgQWBBTNkFdamB6B
+			NJ/BbQNpMtXxuk2cbTAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/
+			BAIwADAgBgNVHSUEGTAXBggrBgEFBQcDBAYLKwYBBAGyMQEDBQIw
+			EQYJYIZIAYb4QgEBBAQDAgUgMEYGA1UdIAQ/MD0wOwYMKwYBBAGy
+			MQECAQEBMCswKQYIKwYBBQUHAgEWHWh0dHBzOi8vc2VjdXJlLmNv
+			bW9kby5uZXQvQ1BTMFoGA1UdHwRTMFEwT6BNoEuGSWh0dHA6Ly9j
+			cmwuY29tb2RvY2EuY29tL0NPTU9ET1JTQUNsaWVudEF1dGhlbnRp
+			Y2F0aW9uYW5kU2VjdXJlRW1haWxDQS5jcmwwgYsGCCsGAQUFBwEB
+			BH8wfTBVBggrBgEFBQcwAoZJaHR0cDovL2NydC5jb21vZG9jYS5j
+			b20vQ09NT0RPUlNBQ2xpZW50QXV0aGVudGljYXRpb25hbmRTZWN1
+			cmVFbWFpbENBLmNydDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3Au
+			Y29tb2RvY2EuY29tMB8GA1UdEQQYMBaBFGpha2VAZmxha2VkZXZl
+			bG9wLm1lMA0GCSqGSIb3DQEBCwUAA4IBAQAUsUUuV0/6geGAv8NO
+			HAs3lthY4zzaZf1F55aqy1Iw5rkmmjL5ljEMirA1E2OgJBbl/n5u
+			3MEtctZrwgqC63IKvPpl+BJvlP5ogT5znMeKje2Bp4JyoSvOYeJT
+			t33jWY6MgvMk7HxfZIrDuUnoyoI/9WbzPybbWBW3IoLutUj7D7vL
+			3qEL+cb6FhBN6m9kadCDAtWfjFcKQDB+YJ0hXmtV4kcr8BSyOYHg
+			BkhzQW56IIt21ko3jXZ9Ixj9rTmcNiDu1aJth4uy1ph8p2KOxFOB
+			CymHoQQ/st57MsOOHsGZtHfIeNc3Zt8NjYtI7xQCdHdVdFSLj501
+			6O8E5k723Kxc
+			</data>
+			<key>PayloadDescription</key>
+			<string>Adds a PKCS#1-formatted certificate</string>
+			<key>PayloadDisplayName</key>
+			<string>jake@flakedevelop.me.cer</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.pkcs1.3F0AC86B-896B-49DA-B749-E3355C4F752D</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.pkcs1</string>
+			<key>PayloadUUID</key>
+			<string>3F0AC86B-896B-49DA-B749-E3355C4F752D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>EmailDomains</key>
+			<array>
+				<string>flakedevelop.me</string>
+				<string>flakega.me</string>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures Managed Domains</string>
+			<key>PayloadDisplayName</key>
+			<string>Domains</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.domains.6D7DCE4E-5732-4DFD-9C20-231B8E8C18C7</string>
+			<key>PayloadType</key>
+			<string>com.apple.domains</string>
+			<key>PayloadUUID</key>
+			<string>6D7DCE4E-5732-4DFD-9C20-231B8E8C18C7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This Email will Automaticly Sign You into your company Email. Please keep it secure. This will also add an VPN to your account in a later date. For more infomation contact hr@flakedevelop.me</string>
+	<key>PayloadDisplayName</key>
+	<string>Jake MacDonald Employee Profile</string>
+	<key>PayloadIdentifier</key>
+	<string>me.flakedevelop.employee.jakemacdonald</string>
+	<key>PayloadOrganization</key>
+	<string>Flake Development</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>3AE3EECD-9273-46FC-9D7F-72E6542BC9BC</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
